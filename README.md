@@ -24,7 +24,7 @@ Ein moderner Task Manager mit Drag & Drop Funktionalität, gebaut mit React, Typ
 
 1. Repository klonen:
 ```bash
-git clone [repository-url]
+git clone https://github.com/Adprivat/react-task-manager.git
 cd react-task-manager
 ```
 
