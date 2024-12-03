@@ -1,46 +1,94 @@
-# Getting Started with Create React App
+# React Task Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ein moderner Task Manager mit Drag & Drop Funktionalität, gebaut mit React, TypeScript und styled-components.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- 🎯 Drag & Drop Funktionalität für Tasks
+- 🎨 Modernes UI-Design
+- 🌓 Dark/Light Mode Unterstützung
+- 📱 Responsive Design
+- 💾 Lokale Zustandsverwaltung
+- 🔄 Echtzeit-Updates
+- 🎯 TypeScript für bessere Entwicklererfahrung
 
-### `npm start`
+## Technologien
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React 18
+- TypeScript
+- styled-components
+- react-beautiful-dnd
+- UUID
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installation
 
-### `npm test`
+1. Repository klonen:
+```bash
+git clone [repository-url]
+cd react-task-manager
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Abhängigkeiten installieren:
+```bash
+npm install
+```
 
-### `npm run build`
+3. Entwicklungsserver starten:
+```bash
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Die Anwendung ist dann unter [http://localhost:3000](http://localhost:3000) verfügbar.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Projektstruktur
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+src/
+├── components/        # React Komponenten
+├── context/          # React Context
+├── styles/           # Styling und Themes
+├── types/            # TypeScript Typdefinitionen
+└── App.tsx           # Hauptkomponente
+```
 
-### `npm run eject`
+## Komponenten
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### TaskBoard
+Die Hauptkomponente, die das Kanban-Board verwaltet.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### TaskList
+Verwaltet die einzelnen Listen (Todo, In Progress, Done).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### TaskCard
+Repräsentiert eine einzelne Aufgabe.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### TaskForm
+Formular zum Erstellen und Bearbeiten von Aufgaben.
 
-## Learn More
+### StrictModeDroppable
+Ein Wrapper für react-beautiful-dnd Kompatibilität mit React 18.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Verwendung
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Neue Aufgabe erstellen:
+   - Klicken Sie auf "+ Neue Aufgabe"
+   - Füllen Sie Titel und Beschreibung aus
+   - Wählen Sie den Status
+   - Speichern Sie die Aufgabe
+
+2. Aufgaben verwalten:
+   - Ziehen Sie Aufgaben zwischen den Spalten
+   - Bearbeiten Sie Aufgaben durch Klick auf den Edit-Button
+   - Löschen Sie Aufgaben durch Klick auf den Delete-Button
+
+## Beitragen
+
+1. Fork das Projekt
+2. Erstelle einen Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit deine Änderungen (`git commit -m 'Add some AmazingFeature'`)
+4. Push zum Branch (`git push origin feature/AmazingFeature`)
+5. Öffne einen Pull Request
+
+## Lizenz
+
+Dieses Projekt ist unter der MIT-Lizenz lizenziert.

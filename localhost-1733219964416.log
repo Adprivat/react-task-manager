@@ -1,0 +1,49 @@
+react-dom.development.js:86  Warning: Connect(Droppable): Support for defaultProps will be removed from memo components in a future major release. Use JavaScript default parameters instead.
+    at div
+    at O (http://localhost:3000/static/js/bundle.js:49983:6)
+    at TaskList (http://localhost:3000/static/js/bundle.js:1029:3)
+    at div
+    at O (http://localhost:3000/static/js/bundle.js:49983:6)
+    at div
+    at O (http://localhost:3000/static/js/bundle.js:49983:6)
+    at Provider (http://localhost:3000/static/js/bundle.js:42233:20)
+    at App (http://localhost:3000/static/js/bundle.js:14614:25)
+    at ErrorBoundary (http://localhost:3000/static/js/bundle.js:8827:35)
+    at DragDropContext (http://localhost:3000/static/js/bundle.js:14738:19)
+    at TaskBoard (http://localhost:3000/static/js/bundle.js:207:76)
+    at ot (http://localhost:3000/static/js/bundle.js:49900:56)
+    at ThemeProvider (http://localhost:3000/static/js/bundle.js:1151:3)
+    at App
+printWarning @ react-dom.development.js:86
+error @ react-dom.development.js:60
+updateMemoComponent @ react-dom.development.js:19320
+beginWork @ react-dom.development.js:21712
+beginWork$1 @ react-dom.development.js:27465
+performUnitOfWork @ react-dom.development.js:26596
+workLoopSync @ react-dom.development.js:26505
+renderRootSync @ react-dom.development.js:26473
+performConcurrentWorkOnRoot @ react-dom.development.js:25777
+workLoop @ scheduler.development.js:266
+flushWork @ scheduler.development.js:239
+performWorkUntilDeadline @ scheduler.development.js:533
+[NEU] Erläutern von Konsolenfehlern mithilfe von Copilot in Edge: Klicken Sie auf
+         
+         , um einen Fehler zu erklären.
+        Weitere Informationen
+        Nicht mehr anzeigen
+react-beautiful-dnd.esm.js:39  react-beautiful-dndInvariant failed: Cannot find droppable entry with id [todo]👷‍ This is a development only message. It will be removed in production builds.
+log @ react-beautiful-dnd.esm.js:39
+__webpack_modules__../node_modules/react-beautiful-dnd/dist/react-beautiful-dnd.esm.js.ErrorBoundary.ErrorBoundary._this.onWindowError @ react-beautiful-dnd.esm.js:115
+error
+(anonym) @ react-beautiful-dnd.esm.js:53
+bindEvents @ react-beautiful-dnd.esm.js:51
+componentDidMount @ react-beautiful-dnd.esm.js:138
+invokeLayoutEffectMountInDEV @ react-dom.development.js:25172
+invokeEffectsInDev @ react-dom.development.js:27390
+commitDoubleInvokeEffectsInDEV @ react-dom.development.js:27366
+flushPassiveEffectsImpl @ react-dom.development.js:27095
+flushPassiveEffects @ react-dom.development.js:27023
+(anonym) @ react-dom.development.js:26808
+workLoop @ scheduler.development.js:266
+flushWork @ scheduler.development.js:239
+performWorkUntilDeadline @ scheduler.development.js:533
